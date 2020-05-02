@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function calculates the inverse of the special "matrix" generated with the previos function and stores its value   
+## This function calculates the inverse of the special "matrix" generated with the previous function and stores its value   
 
 cacheSolve <- function(x, ...) {
         m <- x$getinverse()
